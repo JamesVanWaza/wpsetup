@@ -26,5 +26,5 @@ require get_template_directory() . '/inc/jetpack.php';
 require get_template_directory() . '/inc/enqueue-scripts.php';
 
 /** Register Sidebar. */
-require get_template_directory() . '/inc/enqueue-scripts.php';
+require get_template_directory() . '/inc/register-sidebar.php';
 ?>
