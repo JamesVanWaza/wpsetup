@@ -15,3 +15,6 @@ global $algolia;
 
 $algolia = \Algolia\AlgoliaSearch\SearchClient::create("INSERTID", "INSERTAPIKEY");
 
+require_once __DIR__ . '/wp-cli.php';
+
+
