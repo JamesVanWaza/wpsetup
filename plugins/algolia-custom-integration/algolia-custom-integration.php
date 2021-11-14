@@ -13,8 +13,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 global $algolia;
 
-$algolia = \Algolia\AlgoliaSearch\SearchClient::create("INSERTID", "INSERTAPIKEY");
+$algolia = \Algolia\AlgoliaSearch\SearchClient::create("DATU1767Y7", "40f18bb14d3be441610eddcff172be3c");
 
 require_once __DIR__ . '/wp-cli.php';
-
-
