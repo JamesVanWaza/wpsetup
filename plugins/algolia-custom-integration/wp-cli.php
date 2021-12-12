@@ -12,9 +12,9 @@ class Algolia_Command {
 
 		$type = isset($assoc_args['type']) ? $assoc_args['type'] : 'post';
 
-		$indexName = $table_prefix.$type;
+		$aiswpdemo = $table_prefix.$type;
 		$index = $algolia->initIndex(
-			apply_filters('algolia_index_name', $indexName, $type)
+			apply_filters('algolia_index_name', $aiswpdemo, $type)
 		);
 		$index->clearObjects()->wait();
 
